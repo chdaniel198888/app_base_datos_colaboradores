@@ -347,8 +347,16 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
                     <SwipeableCard
                       key={colaborador.id}
                       hasPhone={!!colaborador.celular}
-                      onCall={() => window.location.href = `tel:${colaborador.celular}`}
-                      onWhatsApp={() => window.open(`https://wa.me/${formatWhatsApp(colaborador.celular)}`, '_blank')}
+                      onCall={() => {
+                        if (colaborador.celular) {
+                          window.location.href = `tel:${colaborador.celular}`;
+                        }
+                      }}
+                      onWhatsApp={() => {
+                        if (colaborador.celular) {
+                          window.open(`https://wa.me/${formatWhatsApp(colaborador.celular)}`, '_blank');
+                        }
+                      }}
                     >
                       <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] p-4 sm:p-6 border-2 border-transparent hover:border-purple-200">
                     {/* Header de la card */}
