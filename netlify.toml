@@ -1,7 +1,7 @@
 [build]
   base = "nextjs-app"
-  command = "npm run build"
-  publish = "nextjs-app/.next"
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = ".next"
 
 [build.environment]
   NEXT_PRIVATE_TARGET = "server"
