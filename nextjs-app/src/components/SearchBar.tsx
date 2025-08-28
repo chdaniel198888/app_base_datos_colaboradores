@@ -1,11 +1,14 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Search, X, Filter, Loader2, User, Phone, Mail, MapPin, Briefcase, Building2, Calendar, Hash, Users, Grid3x3, List, LayoutGrid, Menu, Sparkles, Zap } from 'lucide-react';
 import { useSearch, useFilterOptions } from '@/hooks/useSearch';
 import { cn } from '@/lib/utils';
 import { SyncButton } from '@/components/SyncButton';
 import { CompactListView } from '@/components/CompactListView';
+import { SwipeableCard } from '@/components/SwipeableCard';
+import { BottomNavigation } from '@/components/BottomNavigation';
+import { FilterDrawer } from '@/components/FilterDrawer';
 
 interface SearchBarProps {
   activeTab: 'search' | 'chat-ai' | 'chat-fast';
@@ -15,16 +18,43 @@ interface SearchBarProps {
 export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
   const [query, setQuery] = useState('');
   const [showFilters, setShowFilters] = useState(false);
-  const [showResults, setShowResults] = useState(true); // Cambiado a true para mostrar siempre
+  const [showDrawer, setShowDrawer] = useState(false);
+  const [showResults, setShowResults] = useState(true);
   const [viewType, setViewType] = useState<'cards' | 'list'>('cards');
+  const [mobileView, setMobileView] = useState<'list' | 'map' | 'groups'>('list');
+  const [displayCount, setDisplayCount] = useState(20);
   const [filters, setFilters] = useState({
     centro_costo: '',
     marca: '',
     area: '',
   });
+  const loadMoreRef = useRef<HTMLDivElement>(null);
   
   const { results, isLoading, source, responseTime, hasLocalData, sync } = useSearch(query, { filters });
   const { options } = useFilterOptions();
+  
+  // Infinite scroll implementation
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && displayCount < results.length) {
+          setDisplayCount(prev => Math.min(prev + 20, results.length));
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (loadMoreRef.current) {
+      observer.observe(loadMoreRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [displayCount, results.length]);
+  
+  // Reset display count when results change
+  useEffect(() => {
+    setDisplayCount(20);
+  }, [results]);
   
   // Cargar preferencia de vista desde localStorage
   useEffect(() => {
@@ -53,58 +83,61 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
   
   return (
     <div className="w-full max-w-6xl mx-auto px-4">
-      {/* Header con gradiente */}
-      <div className="mb-8">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex-1">
-            <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent text-center mb-2">
-              Directorio de Colaboradores
-            </h1>
-            <p className="text-center text-gray-600">Encuentra rápidamente a cualquier miembro del equipo</p>
-          </div>
-          <div className="absolute top-4 right-4 sm:relative sm:top-0 sm:right-0">
-            <SyncButton />
+      {/* Header compacto */}
+      <div className="mb-4">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+            Directorio de Colaboradores
+          </h1>
+          <div className="flex flex-col items-end">
+            <div className="scale-75 sm:scale-100">
+              <SyncButton />
+            </div>
+            <span className="text-[10px] sm:text-xs text-gray-500 mt-1">ACTUALIZACIÓN DISPONIBLE</span>
           </div>
         </div>
       </div>
 
-      {/* Navigation Tabs - Después del título */}
-      <div className="mb-6">
-        <div className="flex bg-white rounded-lg shadow-sm p-1">
+      {/* Navigation Tabs - Compacto con solo iconos en móvil */}
+      <div className="mb-4">
+        <div className="flex bg-white rounded-lg shadow-sm p-1 h-[40px]">
           <button
             onClick={() => setActiveTab('search')}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-md transition ${
+            className={`flex-1 flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-1 rounded-md transition ${
               activeTab === 'search'
                 ? 'bg-blue-600 text-white'
                 : 'text-gray-600 hover:bg-gray-100'
             }`}
+            title="Búsqueda"
           >
-            <Search className="w-5 h-5" />
-            <span className="font-medium">Búsqueda</span>
+            <Search className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="hidden sm:inline font-medium">Búsqueda</span>
           </button>
           <button
             onClick={() => setActiveTab('chat-ai')}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-md transition ${
+            className={`flex-1 flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-1 rounded-md transition ${
               activeTab === 'chat-ai'
                 ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white'
                 : 'text-gray-600 hover:bg-gray-100'
             }`}
+            title="Asistente IA"
           >
-            <Sparkles className="w-5 h-5" />
-            <span className="font-medium">Asistente IA</span>
+            <Sparkles className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="hidden sm:inline font-medium">Asistente IA</span>
           </button>
           <button
             onClick={() => setActiveTab('chat-fast')}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-2 rounded-md transition relative ${
+            className={`flex-1 flex items-center justify-center gap-1 sm:gap-2 px-2 sm:px-4 py-1 rounded-md transition relative ${
               activeTab === 'chat-fast'
                 ? 'bg-gradient-to-r from-green-600 to-emerald-600 text-white'
                 : 'text-gray-600 hover:bg-gray-100'
             }`}
+            title="IA Ultra-Rápida"
           >
-            <Zap className="w-5 h-5" />
-            <span className="font-medium">IA Ultra-Rápida</span>
-            <span className="absolute -top-1 -right-1 bg-yellow-400 text-xs px-1.5 py-0.5 rounded-full text-gray-800 font-bold animate-pulse">
-              ⚡NEW
+            <Zap className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="hidden sm:inline font-medium">IA Ultra-Rápida</span>
+            <span className="absolute -top-1 -right-1 bg-yellow-400 text-[8px] sm:text-xs px-1 sm:px-1.5 py-0.5 rounded-full text-gray-800 font-bold animate-pulse">
+              ⚡
             </span>
           </button>
         </div>
@@ -154,10 +187,17 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
             )}
             
             <button
-              onClick={() => setShowFilters(!showFilters)}
+              onClick={() => {
+                // En móvil abre el drawer, en desktop toggle filtros normales
+                if (window.innerWidth < 640) {
+                  setShowDrawer(!showDrawer);
+                } else {
+                  setShowFilters(!showFilters);
+                }
+              }}
               className={cn(
                 "p-2 rounded-lg transition-all duration-200",
-                showFilters 
+                (showFilters || showDrawer)
                   ? "bg-gradient-to-r from-purple-500 to-blue-600 text-white shadow-lg" 
                   : "hover:bg-gray-100 text-gray-500"
               )}
@@ -201,9 +241,9 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
         </div>
       </div>
       
-      {/* Panel de filtros con animación */}
+      {/* Panel de filtros para desktop */}
       <div className={cn(
-        "overflow-hidden transition-all duration-300",
+        "hidden sm:block overflow-hidden transition-all duration-300",
         showFilters ? "max-h-32 opacity-100 mb-8" : "max-h-0 opacity-0"
       )}>
         <div className="p-4 bg-white/80 backdrop-blur-lg rounded-2xl border-2 border-purple-100 shadow-lg">
@@ -244,6 +284,15 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
         </div>
       </div>
       
+      {/* Filter Drawer para móvil */}
+      <FilterDrawer
+        isOpen={showDrawer}
+        onClose={() => setShowDrawer(false)}
+        filters={filters}
+        onFilterChange={setFilters}
+        options={options}
+      />
+      
       {/* Toggle de vista y resultados - Siempre mostrar */}
       {showResults && !isLoading && (
         <div className="space-y-4 animate-slide-in">
@@ -252,7 +301,11 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
               {/* Controles de vista */}
               <div className="flex items-center justify-between">
                 <p className="text-sm text-gray-600 font-medium">
-                  Mostrando {viewType === 'list' ? Math.min(50, results.length) : Math.min(20, results.length)} de {results.length} resultados
+                  {displayCount < results.length ? (
+                    <>Mostrando {displayCount} de {results.length} resultados</>
+                  ) : (
+                    <>{results.length} resultado{results.length !== 1 ? 's' : ''}</>
+                  )}
                 </p>
                 
                 {/* Toggle de vista */}
@@ -290,11 +343,14 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
                 <CompactListView colaboradores={results} />
               ) : (
                 <div className="grid gap-4 sm:grid-cols-2">
-                  {results.slice(0, 20).map((colaborador) => (
-                    <div
-                    key={colaborador.id}
-                    className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] p-4 sm:p-6 border-2 border-transparent hover:border-purple-200"
-                  >
+                  {results.slice(0, displayCount).map((colaborador) => (
+                    <SwipeableCard
+                      key={colaborador.id}
+                      hasPhone={!!colaborador.celular}
+                      onCall={() => window.location.href = `tel:${colaborador.celular}`}
+                      onWhatsApp={() => window.open(`https://wa.me/${formatWhatsApp(colaborador.celular)}`, '_blank')}
+                    >
+                      <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] p-4 sm:p-6 border-2 border-transparent hover:border-purple-200">
                     {/* Header de la card */}
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1">
@@ -408,8 +464,16 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
                         <p className="mt-1">📍 {colaborador.direccion}</p>
                       )}
                     </div>
-                  </div>
+                      </div>
+                    </SwipeableCard>
                   ))}
+                  
+                  {/* Infinite scroll trigger */}
+                  {displayCount < results.length && (
+                    <div ref={loadMoreRef} className="col-span-full flex justify-center py-4">
+                      <Loader2 className="w-6 h-6 animate-spin text-purple-600" />
+                    </div>
+                  )}
                 </div>
               )}
             </>
@@ -421,6 +485,12 @@ export function SearchBar({ activeTab, setActiveTab }: SearchBarProps) {
           )}
         </div>
       )}
+      
+      {/* Bottom Navigation para móvil */}
+      <BottomNavigation
+        activeView={mobileView}
+        onViewChange={setMobileView}
+      />
     </div>
   );
 }
