@@ -1,0 +1,29 @@
+{
+  "name": "mcp-server-colaboradores",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "clean": "rm -rf dist",
+    "test": "node test-client.js",
+    "test:mcp": "npm run build && node test-client.js"
+  },
+  "keywords": ["mcp", "airtable", "colaboradores"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP Server para gestión de colaboradores con Airtable",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "airtable": "^0.12.2",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

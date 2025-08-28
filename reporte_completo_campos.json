@@ -1,0 +1,1409 @@
+{
+  "fecha_analisis": "2025-08-27T15:55:17.146733",
+  "base_id": "appzTllAjxu4TOs1a",
+  "table_id": "tbldYTLfQ3DoEK0WA",
+  "view_id": "viwDAiGHQowuPtG45",
+  "total_registros": 80,
+  "total_campos": 61,
+  "campos": {
+    "# Años": {
+      "tipo_principal": "Mixto: dict, int",
+      "tipos_detectados": [
+        "dict",
+        "int"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": true,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 24,
+      "valores_muestra": [
+        28,
+        23,
+        28,
+        32,
+        0
+      ]
+    },
+    "# de cuenta": {
+      "tipo_principal": "int",
+      "tipos_detectados": [
+        "int"
+      ],
+      "apariciones": 75,
+      "porcentaje_presencia": 93.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        20300613634,
+        20000660491,
+        18059414965,
+        18059404935,
+        12186132153
+      ]
+    },
+    "Banco ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 77,
+      "porcentaje_presencia": 96.25,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 11,
+      "cantidad_valores_unicos": 2,
+      "valores_muestra": [
+        "Produbanco ",
+        "Produbanco ",
+        "Produbanco ",
+        "Produbanco ",
+        "Produbanco "
+      ]
+    },
+    "Cargas familiares": {
+      "tipo_principal": "int",
+      "tipos_detectados": [
+        "int"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 4,
+      "valores_muestra": [
+        1,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    "Cargo": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 22,
+      "cantidad_valores_unicos": 18,
+      "valores_muestra": [
+        "Polifuncional cocina",
+        "Polifuncional servicio",
+        "Polifuncional servicio",
+        "Líder de apoyo",
+        "Polifuncional cocina"
+      ]
+    },
+    "Celular": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 14,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "(095) 905-7495",
+        "(099) 217-7097",
+        "(099) 468-0151",
+        "(096) 128-8230",
+        "(099) 065-4402"
+      ]
+    },
+    "Celular Coorporativo": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 4,
+      "porcentaje_presencia": 5.0,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 14,
+      "cantidad_valores_unicos": 4,
+      "valores_muestra": [
+        "(095) 894-8606",
+        "(096) 804-1693",
+        "(099) 405-4412",
+        "(099) 081-9893"
+      ]
+    },
+    "Centro De Costo": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recE5GTGLXVOI77n2"
+        ],
+        [
+          "recE5GTGLXVOI77n2"
+        ],
+        [
+          "recE5GTGLXVOI77n2"
+        ]
+      ]
+    },
+    "Control Disciplinario 5": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 9,
+      "porcentaje_presencia": 11.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recSnAyRE1o1jBfaL"
+        ],
+        [
+          "recj5gW2yzPeWlg8v"
+        ],
+        [
+          "recDyQGXAjNTBrGRF"
+        ]
+      ]
+    },
+    "Control Disciplinario 6": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 6,
+      "porcentaje_presencia": 7.5,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "reckY3aihbqHyScwZ",
+          "recj5gW2yzPeWlg8v"
+        ],
+        [
+          "recP3IWw9FTOhvkwo"
+        ],
+        [
+          "recSnAyRE1o1jBfaL"
+        ]
+      ]
+    },
+    "Copia de Registro de Horas Extra/Descuento": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 48,
+      "porcentaje_presencia": 60.0,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recAKkD1sdRXhpsGv",
+          "recRYT8kBarGIYTu5"
+        ],
+        [
+          "recMmVD7xwfAbHhq2",
+          "recd8hyIGC26Kw3oH"
+        ],
+        [
+          "recMDs2xafrTFa8ee",
+          "recD08ggRngG1ViXC"
+        ]
+      ]
+    },
+    "Correo": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 31,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "erickcv96@gmail.com",
+        "nathymorales67@gmail.com",
+        "catamore@outlook.com",
+        "alexgeo0823arias@gmail.com",
+        "Ysrael.Navarro@gmail.com"
+      ]
+    },
+    "Correo Coorporativo": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 19,
+      "porcentaje_presencia": 23.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 32,
+      "cantidad_valores_unicos": 18,
+      "valores_muestra": [
+        "marketing@chiosburger.com",
+        "control_calidad@chiosburger.com",
+        "produccion@chiosburger.com",
+        "analisis@chiosburger.com",
+        "entrenador@chiosburger.com"
+      ]
+    },
+    "Cumpleaños": {
+      "tipo_principal": "Mixto: str, dict",
+      "tipos_detectados": [
+        "str",
+        "dict"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": true,
+      "subtipos": null,
+      "longitud_maxima": 10,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "2025-09-13",
+        "2025-02-18",
+        "2025-12-26",
+        "2025-08-23",
+        "2025-01-24"
+      ]
+    },
+    "Cédula / Pasaporte": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 11,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "1725275638",
+        "1725622250",
+        "1720191749",
+        "1208311124",
+        "1758612517"
+      ]
+    },
+    "Código (from Centro De Costo 2)": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ]
+      ]
+    },
+    "Código Trabajador": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 7,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "SC011",
+        "SC009",
+        "SC008",
+        "SC006",
+        "SC005"
+      ]
+    },
+    "Dirección Domicilio": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 62,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "Av. Diego de Vasquez de Cepeda y Nazacoto Puento",
+        "Pasaje 16 manzana X casa N-9255",
+        "Carcelen Bajo N92 C.B. y pasaje 24 ",
+        "Isidro labrador  casa esquinera y pio xii san juan de Calderón",
+        "Pio xii y luis tufino dan juan de Calderón"
+      ]
+    },
+    "Días de Contratación 2": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 1,
+      "porcentaje_presencia": 1.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "receGOW4DZHFxzr1h"
+        ]
+      ]
+    },
+    "EVALUACIÓN 360 PORTUGAL": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 11,
+      "porcentaje_presencia": 13.75,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "rec3cJsHzCHkq2UDg"
+        ],
+        [
+          "reckeJM1PTQJmDW1n"
+        ],
+        [
+          "rec41bHnEoCyvypPd"
+        ]
+      ]
+    },
+    "EVALUACIÓN 360 PORTUGAL 4": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 1,
+      "porcentaje_presencia": 1.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recpMImseRgPoV9h5",
+          "rec696F5lUFkph5fy"
+        ]
+      ]
+    },
+    "Empresa": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 14,
+      "cantidad_valores_unicos": 2,
+      "valores_muestra": [
+        "FOODIX SAS",
+        "FOODIX SAS",
+        "FOODIX SAS",
+        "FOODIX SAS",
+        "FOODIX SAS"
+      ]
+    },
+    "Estado ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 6,
+      "cantidad_valores_unicos": 1,
+      "valores_muestra": [
+        "Activo",
+        "Activo",
+        "Activo",
+        "Activo",
+        "Activo"
+      ]
+    },
+    "Estado Civil ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 11,
+      "cantidad_valores_unicos": 4,
+      "valores_muestra": [
+        "Soltero",
+        "Soltero",
+        "Soltero",
+        "Soltero",
+        "Soltero"
+      ]
+    },
+    "Etapa": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 25,
+      "cantidad_valores_unicos": 3,
+      "valores_muestra": [
+        "Onboarding (60 días)",
+        "Inducción (30 días)",
+        "Onboarding (60 días)",
+        "Tiempo de prueba superado",
+        "Tiempo de prueba superado"
+      ]
+    },
+    "Fecha Ingreso": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 10,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "2025-06-03",
+        "2025-04-13",
+        "2025-02-14",
+        "2024-12-24",
+        "2024-12-17"
+      ]
+    },
+    "Fecha Ingreso IESS": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 68,
+      "porcentaje_presencia": 85.0,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 10,
+      "cantidad_valores_unicos": 37,
+      "valores_muestra": [
+        "2025-06-16",
+        "2025-06-01",
+        "2025-04-01",
+        "2025-04-01",
+        "2025-04-01"
+      ]
+    },
+    "Fecha de Nacimiento": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 10,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "1996-09-13",
+        "2002-02-18",
+        "1996-12-26",
+        "1993-08-23",
+        "2025-01-24"
+      ]
+    },
+    "Figuras Geométricas": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 47,
+      "porcentaje_presencia": 58.75,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "Cuadrado",
+          "Círculo"
+        ],
+        [
+          "Cuadrado",
+          "Triángulo"
+        ],
+        [
+          "Cuadrado",
+          "Triángulo"
+        ]
+      ]
+    },
+    "Forma de pago": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 78,
+      "porcentaje_presencia": 97.5,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 13,
+      "cantidad_valores_unicos": 2,
+      "valores_muestra": [
+        "Transferencia",
+        "Transferencia",
+        "Transferencia",
+        "Transferencia",
+        "Transferencia"
+      ]
+    },
+    "Información Tiendas": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "reco1sSJAqxIOACrq"
+        ],
+        [
+          "reco1sSJAqxIOACrq"
+        ],
+        [
+          "reco1sSJAqxIOACrq"
+        ]
+      ]
+    },
+    "Marca": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 17,
+      "cantidad_valores_unicos": 4,
+      "valores_muestra": [
+        "Santo Cachon",
+        "Santo Cachon",
+        "Santo Cachon",
+        "Santo Cachon",
+        "Santo Cachon"
+      ]
+    },
+    "Matriz de Salidas": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 10,
+      "porcentaje_presencia": 12.5,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recqfTs5aX1cQrDOu",
+          "recSGJAU2GBzB0wqY"
+        ],
+        [
+          "recWCv7JJVB8VRCke"
+        ],
+        [
+          "rec3OMwzRrmQTumVI"
+        ]
+      ]
+    },
+    "Mes Cumpleaños": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 10,
+      "cantidad_valores_unicos": 12,
+      "valores_muestra": [
+        "Septiembre",
+        "Febrero",
+        "Diciembre",
+        "Agosto",
+        "Enero"
+      ]
+    },
+    "Nacionalidad": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 11,
+      "cantidad_valores_unicos": 3,
+      "valores_muestra": [
+        "Ecuatoriano",
+        "Ecuatoriano",
+        "Ecuatoriano",
+        "Ecuatoriano",
+        "Ecuatoriano"
+      ]
+    },
+    "Nivel de estudios": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 78,
+      "porcentaje_presencia": 97.5,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 27,
+      "cantidad_valores_unicos": 8,
+      "valores_muestra": [
+        "Bachiller",
+        "Bachiller",
+        "Bachiller",
+        "Bachiller",
+        "Bachiller"
+      ]
+    },
+    "Nombre": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 36,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "Cedeño Velasquez Erick Jair",
+        "Quingualisa Morales Nathaly Abigail",
+        "Vera Moreno Catalina del Cisne ",
+        "Zambrano Arias Alex Geovany",
+        "Navarro Montenegro Ysrael Alejandro"
+      ]
+    },
+    "Permanencia en Días": {
+      "tipo_principal": "int",
+      "tipos_detectados": [
+        "int"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        85,
+        136,
+        194,
+        246,
+        253
+      ]
+    },
+    "Permanencia en Meses": {
+      "tipo_principal": "int",
+      "tipos_detectados": [
+        "int"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 30,
+      "valores_muestra": [
+        2,
+        4,
+        6,
+        8,
+        8
+      ]
+    },
+    "Rango Edad": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 13,
+      "cantidad_valores_unicos": 5,
+      "valores_muestra": [
+        "26 a 35 años",
+        "18 a 25 años",
+        "26 a 35 años",
+        "26 a 35 años",
+        "Menor de 18"
+      ]
+    },
+    "Salario": {
+      "tipo_principal": "Mixto: int, float",
+      "tipos_detectados": [
+        "int",
+        "float"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 23,
+      "valores_muestra": [
+        473.67,
+        473.67,
+        473.67,
+        473.67,
+        473.67
+      ]
+    },
+    "Sector de domicilio ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 57,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "La Ofelia ",
+        "Carcelén Bajo",
+        "Carcelen",
+        "San Juan de Calderon",
+        "San Juan de Calderon"
+      ]
+    },
+    "Sexo ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 9,
+      "cantidad_valores_unicos": 2,
+      "valores_muestra": [
+        "Masculino",
+        "Femenino ",
+        "Femenino ",
+        "Masculino",
+        "Masculino"
+      ]
+    },
+    "Solicitud de Vacaciones": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 3,
+      "porcentaje_presencia": 3.75,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recDkZzogXJrd0DwD",
+          "rec5WDcz9Nj96GVEB"
+        ],
+        [
+          "recjFAaEJyCKrQs5r"
+        ],
+        [
+          "recKoa5NHmLQvMmN9",
+          "recfsj3otyvDLWWOZ"
+        ]
+      ]
+    },
+    "Solicitud de Vacaciones 2": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 1,
+      "porcentaje_presencia": 1.25,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 27,
+      "cantidad_valores_unicos": 1,
+      "valores_muestra": [
+        "Ibaza Molina Enrique Javier"
+      ]
+    },
+    "Solicitud de Vacaciones 3": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 8,
+      "porcentaje_presencia": 10.0,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recDkZzogXJrd0DwD"
+        ],
+        [
+          "recjFAaEJyCKrQs5r"
+        ],
+        [
+          "recDkZzogXJrd0DwD",
+          "rec5WDcz9Nj96GVEB"
+        ]
+      ]
+    },
+    "Solicitud de Vacaciones 5": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 1,
+      "porcentaje_presencia": 1.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recfsj3otyvDLWWOZ",
+          "rec14uBhTqmcbUNSQ"
+        ]
+      ]
+    },
+    "Solicitud de Vacantes": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 10,
+      "porcentaje_presencia": 12.5,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "rec6m6bY4K5Z5uXnI"
+        ],
+        [
+          "recZrjC8EHv2VO7YK"
+        ],
+        [
+          "reckVHdWUAxS7deTF"
+        ]
+      ]
+    },
+    "Table 13": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 18,
+      "porcentaje_presencia": 22.5,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "rec8YCv9EfbRG5Z3t",
+          "recUNRhTGHkcObCDl"
+        ],
+        [
+          "recWS9wfbYhloNl2r",
+          "recayV8FsH2nyWcep"
+        ],
+        [
+          "recJd2ZaSGyLYnU6h"
+        ]
+      ]
+    },
+    "Table 13 (2)": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 49,
+      "porcentaje_presencia": 61.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recQyW7wFXHgxRt99",
+          "recyqZDOtevy2esan"
+        ],
+        [
+          "recYap6BEtMQ13c9o",
+          "rec01AU7B9snzkqZ7"
+        ],
+        [
+          "recFRhvNcYh775T21",
+          "recLjEaw9AUD5PkCL"
+        ]
+      ]
+    },
+    "Table 19": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 57,
+      "porcentaje_presencia": 71.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recSUhvB3Mrdb2e54",
+          "rec6th2Qyb0JD1ySx"
+        ],
+        [
+          "recnekY4sgkL9QWip",
+          "recJUOdgZoHfmsRju"
+        ],
+        [
+          "reccY2sIiAmLNgmow",
+          "recesAaQ8EtGp2Idy"
+        ]
+      ]
+    },
+    "Table 19 (2)": {
+      "tipo_principal": "list",
+      "tipos_detectados": [
+        "list"
+      ],
+      "apariciones": 21,
+      "porcentaje_presencia": 26.25,
+      "tiene_nulos": true,
+      "es_array": true,
+      "es_objeto": false,
+      "subtipos": [
+        "str"
+      ],
+      "longitud_maxima": null,
+      "cantidad_valores_unicos": 0,
+      "valores_muestra": [
+        [
+          "recr3UBLKcKrOiCpL",
+          "recwpcOmb9PnsUCux"
+        ],
+        [
+          "recr5mkFWKcweMUo9",
+          "rec82YyRJNVHFOwez"
+        ],
+        [
+          "rectliOlG4pu02wKN",
+          "recLHz0slzRlIg1AV"
+        ]
+      ]
+    },
+    "Teléfono Emergencia": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 76,
+      "porcentaje_presencia": 95.0,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 38,
+      "cantidad_valores_unicos": 50,
+      "valores_muestra": [
+        "0968607051/0979634835",
+        "0962665500 / 0969825934",
+        "0987018562",
+        "0959534769",
+        "0962848441"
+      ]
+    },
+    "Tipo de Sangre": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 79,
+      "porcentaje_presencia": 98.75,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 11,
+      "cantidad_valores_unicos": 10,
+      "valores_muestra": [
+        "O+",
+        "O+",
+        "O+",
+        "O+",
+        "A+"
+      ]
+    },
+    "Tipo de cuenta ": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 77,
+      "porcentaje_presencia": 96.25,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 9,
+      "cantidad_valores_unicos": 2,
+      "valores_muestra": [
+        "Ahorros",
+        "Ahorros",
+        "Ahorros",
+        "Ahorros",
+        "Ahorros"
+      ]
+    },
+    "Tipo de trabajador": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 21,
+      "cantidad_valores_unicos": 3,
+      "valores_muestra": [
+        "Agente de Restaurante",
+        "Agente de Restaurante",
+        "Agente de Restaurante",
+        "Agente de Restaurante",
+        "Agente de Restaurante"
+      ]
+    },
+    "Título": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 78,
+      "porcentaje_presencia": 97.5,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 48,
+      "cantidad_valores_unicos": 45,
+      "valores_muestra": [
+        "Bachiller",
+        "Bachiller en Ciencias",
+        "Bachiller en Ciencias ",
+        "Bachiller en Ciencias ",
+        "Bachiller en Ciencias"
+      ]
+    },
+    "centro_costo_copia": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 27,
+      "cantidad_valores_unicos": 13,
+      "valores_muestra": [
+        "Santo Cachón Real Audiencia",
+        "Santo Cachón Real Audiencia",
+        "Santo Cachón Real Audiencia",
+        "Santo Cachón Real Audiencia",
+        "Santo Cachón Real Audiencia"
+      ]
+    },
+    "jefe_directo": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 72,
+      "porcentaje_presencia": 90.0,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 35,
+      "cantidad_valores_unicos": 14,
+      "valores_muestra": [
+        "Gil Ramirez Jorge Luis",
+        "Gil Ramirez Jorge Luis",
+        "Gil Ramirez Jorge Luis",
+        "Gil Ramirez Jorge Luis",
+        "Gil Ramirez Jorge Luis"
+      ]
+    },
+    "unidades_negocio": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 72,
+      "porcentaje_presencia": 90.0,
+      "tiene_nulos": true,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 20,
+      "cantidad_valores_unicos": 6,
+      "valores_muestra": [
+        "Tiendas",
+        "Tiendas",
+        "Tiendas",
+        "Tiendas",
+        "Tiendas"
+      ]
+    },
+    "Área": {
+      "tipo_principal": "str",
+      "tipos_detectados": [
+        "str"
+      ],
+      "apariciones": 80,
+      "porcentaje_presencia": 100.0,
+      "tiene_nulos": false,
+      "es_array": false,
+      "es_objeto": false,
+      "subtipos": null,
+      "longitud_maxima": 21,
+      "cantidad_valores_unicos": 12,
+      "valores_muestra": [
+        "Cocina",
+        "Servicio",
+        "Servicio",
+        "Servicio",
+        "Cocina"
+      ]
+    }
+  }
+}

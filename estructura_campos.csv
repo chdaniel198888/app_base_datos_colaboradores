@@ -1,0 +1,62 @@
+Campo,Tipo,Presencia_%,Es_Array,Es_Objeto,Tiene_Nulos,Valores_Unicos
+# Años,"dict, int",100.0,No,Sí,No,24
+# de cuenta,int,93.8,No,No,Sí,50
+Banco ,str,96.2,No,No,Sí,2
+Cargas familiares,int,100.0,No,No,No,4
+Cargo,str,100.0,No,No,No,18
+Celular,str,100.0,No,No,No,50
+Celular Coorporativo,str,5.0,No,No,Sí,4
+Centro De Costo,list,100.0,Sí,No,No,0
+Control Disciplinario 5,list,11.2,Sí,No,Sí,0
+Control Disciplinario 6,list,7.5,Sí,No,Sí,0
+Copia de Registro de Horas Extra/Descuento,list,60.0,Sí,No,Sí,0
+Correo,str,98.8,No,No,Sí,50
+Correo Coorporativo,str,23.8,No,No,Sí,18
+Cumpleaños,"str, dict",100.0,No,Sí,No,50
+Cédula / Pasaporte,str,98.8,No,No,Sí,50
+Código (from Centro De Costo 2),list,100.0,Sí,No,No,0
+Código Trabajador,str,100.0,No,No,No,50
+Dirección Domicilio,str,100.0,No,No,No,50
+Días de Contratación 2,list,1.2,Sí,No,Sí,0
+EVALUACIÓN 360 PORTUGAL,list,13.8,Sí,No,Sí,0
+EVALUACIÓN 360 PORTUGAL 4,list,1.2,Sí,No,Sí,0
+Empresa,str,100.0,No,No,No,2
+Estado ,str,100.0,No,No,No,1
+Estado Civil ,str,100.0,No,No,No,4
+Etapa,str,100.0,No,No,No,3
+Fecha Ingreso,str,100.0,No,No,No,50
+Fecha Ingreso IESS,str,85.0,No,No,Sí,37
+Fecha de Nacimiento,str,98.8,No,No,Sí,50
+Figuras Geométricas,list,58.8,Sí,No,Sí,0
+Forma de pago,str,97.5,No,No,Sí,2
+Información Tiendas,list,100.0,Sí,No,No,0
+Marca,str,100.0,No,No,No,4
+Matriz de Salidas,list,12.5,Sí,No,Sí,0
+Mes Cumpleaños,str,98.8,No,No,Sí,12
+Nacionalidad,str,100.0,No,No,No,3
+Nivel de estudios,str,97.5,No,No,Sí,8
+Nombre,str,100.0,No,No,No,50
+Permanencia en Días,int,100.0,No,No,No,50
+Permanencia en Meses,int,100.0,No,No,No,30
+Rango Edad,str,100.0,No,No,No,5
+Salario,"int, float",98.8,No,No,Sí,23
+Sector de domicilio ,str,100.0,No,No,No,50
+Sexo ,str,100.0,No,No,No,2
+Solicitud de Vacaciones,list,3.8,Sí,No,Sí,0
+Solicitud de Vacaciones 2,str,1.2,No,No,Sí,1
+Solicitud de Vacaciones 3,list,10.0,Sí,No,Sí,0
+Solicitud de Vacaciones 5,list,1.2,Sí,No,Sí,0
+Solicitud de Vacantes,list,12.5,Sí,No,Sí,0
+Table 13,list,22.5,Sí,No,Sí,0
+Table 13 (2),list,61.3,Sí,No,Sí,0
+Table 19,list,71.2,Sí,No,Sí,0
+Table 19 (2),list,26.2,Sí,No,Sí,0
+Teléfono Emergencia,str,95.0,No,No,Sí,50
+Tipo de Sangre,str,98.8,No,No,Sí,10
+Tipo de cuenta ,str,96.2,No,No,Sí,2
+Tipo de trabajador,str,100.0,No,No,No,3
+Título,str,97.5,No,No,Sí,45
+centro_costo_copia,str,100.0,No,No,No,13
+jefe_directo,str,90.0,No,No,Sí,14
+unidades_negocio,str,90.0,No,No,Sí,6
+Área,str,100.0,No,No,No,12

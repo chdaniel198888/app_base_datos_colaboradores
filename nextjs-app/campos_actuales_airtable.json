@@ -1,0 +1,887 @@
+{
+  "fecha_analisis": "2025-08-27",
+  "total_campos": 46,
+  "campos": {
+    "Control Disciplinario 6": {
+      "nombre_real": "Control Disciplinario 6",
+      "tipo": "list",
+      "muestra": "['reckY3aihbqHyScwZ', 'recj5gW2yzPeWlg8v', 'recJ5TvUmhRolQiua']"
+    },
+    "Copia de Registro de Horas Extra/Descuento": {
+      "nombre_real": "Copia de Registro de Horas Extra/Descuento",
+      "tipo": "list",
+      "muestra": "['recAKkD1sdRXhpsGv', 'recRYT8kBarGIYTu5']"
+    },
+    "Table 13 (2)": {
+      "nombre_real": "Table 13 (2)",
+      "tipo": "list",
+      "muestra": "['recQyW7wFXHgxRt99', 'recyqZDOtevy2esan', 'recFSSPfOc6uBbDJX']"
+    },
+    "area": {
+      "nombre_real": "area",
+      "tipo": "str",
+      "muestra": "Cocina"
+    },
+    "banco": {
+      "nombre_real": "banco",
+      "tipo": "str",
+      "muestra": "Produbanco "
+    },
+    "cargas_familiares": {
+      "nombre_real": "cargas_familiares",
+      "tipo": "int",
+      "muestra": "1"
+    },
+    "cargo": {
+      "nombre_real": "cargo",
+      "tipo": "str",
+      "muestra": "Polifuncional cocina"
+    },
+    "cedula": {
+      "nombre_real": "cedula",
+      "tipo": "str",
+      "muestra": "1725275638"
+    },
+    "celular": {
+      "nombre_real": "celular",
+      "tipo": "str",
+      "muestra": "(095) 905-7495"
+    },
+    "centro_costo": {
+      "nombre_real": "centro_costo",
+      "tipo": "list",
+      "muestra": "['recE5GTGLXVOI77n2']"
+    },
+    "centro_costo_copia": {
+      "nombre_real": "centro_costo_copia",
+      "tipo": "str",
+      "muestra": "Santo Cachón Real Audiencia"
+    },
+    "codigo_centro_costo": {
+      "nombre_real": "codigo_centro_costo",
+      "tipo": "list",
+      "muestra": "['SC001 (Santo Cachón Real Audiencia)']"
+    },
+    "codigo_trabajador": {
+      "nombre_real": "codigo_trabajador",
+      "tipo": "str",
+      "muestra": "SC011"
+    },
+    "correo": {
+      "nombre_real": "correo",
+      "tipo": "str",
+      "muestra": "erickcv96@gmail.com"
+    },
+    "direccion_domicilio": {
+      "nombre_real": "direccion_domicilio",
+      "tipo": "str",
+      "muestra": "Av. Diego de Vasquez de Cepeda y Nazacoto Puento"
+    },
+    "edad": {
+      "nombre_real": "edad",
+      "tipo": "int",
+      "muestra": "28"
+    },
+    "empresa": {
+      "nombre_real": "empresa",
+      "tipo": "str",
+      "muestra": "FOODIX SAS"
+    },
+    "estado": {
+      "nombre_real": "estado",
+      "tipo": "str",
+      "muestra": "Activo"
+    },
+    "estado_civil": {
+      "nombre_real": "estado_civil",
+      "tipo": "str",
+      "muestra": "Soltero"
+    },
+    "etapa": {
+      "nombre_real": "etapa",
+      "tipo": "str",
+      "muestra": "Onboarding (60 días)"
+    },
+    "fecha_cumpleanos": {
+      "nombre_real": "fecha_cumpleanos",
+      "tipo": "str",
+      "muestra": "2025-09-13"
+    },
+    "fecha_ingreso": {
+      "nombre_real": "fecha_ingreso",
+      "tipo": "str",
+      "muestra": "2025-06-03"
+    },
+    "fecha_ingreso_iess": {
+      "nombre_real": "fecha_ingreso_iess",
+      "tipo": "str",
+      "muestra": "2025-06-16"
+    },
+    "fecha_nacimiento": {
+      "nombre_real": "fecha_nacimiento",
+      "tipo": "str",
+      "muestra": "1996-09-13"
+    },
+    "forma_pago": {
+      "nombre_real": "forma_pago",
+      "tipo": "str",
+      "muestra": "Transferencia"
+    },
+    "jefe_directo": {
+      "nombre_real": "jefe_directo",
+      "tipo": "str",
+      "muestra": "Gil Ramirez Jorge Luis"
+    },
+    "marca": {
+      "nombre_real": "marca",
+      "tipo": "str",
+      "muestra": "Santo Cachon"
+    },
+    "mes_cumpleanos": {
+      "nombre_real": "mes_cumpleanos",
+      "tipo": "str",
+      "muestra": "Septiembre"
+    },
+    "nacionalidad": {
+      "nombre_real": "nacionalidad",
+      "tipo": "str",
+      "muestra": "Ecuatoriano"
+    },
+    "nivel_estudios": {
+      "nombre_real": "nivel_estudios",
+      "tipo": "str",
+      "muestra": "Bachiller"
+    },
+    "nombre": {
+      "nombre_real": "nombre",
+      "tipo": "str",
+      "muestra": "Cedeño Velasquez Erick Jair"
+    },
+    "numero_cuenta": {
+      "nombre_real": "numero_cuenta",
+      "tipo": "int",
+      "muestra": "20300613634"
+    },
+    "permanencia_anos": {
+      "nombre_real": "permanencia_anos",
+      "tipo": "float",
+      "muestra": "0.23"
+    },
+    "permanencia_dias": {
+      "nombre_real": "permanencia_dias",
+      "tipo": "int",
+      "muestra": "85"
+    },
+    "permanencia_meses": {
+      "nombre_real": "permanencia_meses",
+      "tipo": "int",
+      "muestra": "2"
+    },
+    "rango_edad": {
+      "nombre_real": "rango_edad",
+      "tipo": "str",
+      "muestra": "26 a 35 años"
+    },
+    "salario": {
+      "nombre_real": "salario",
+      "tipo": "float",
+      "muestra": "473.67"
+    },
+    "secto_domicilio": {
+      "nombre_real": "secto_domicilio",
+      "tipo": "str",
+      "muestra": "La Ofelia "
+    },
+    "sexo": {
+      "nombre_real": "sexo",
+      "tipo": "str",
+      "muestra": "Masculino"
+    },
+    "telefono_emergencia": {
+      "nombre_real": "telefono_emergencia",
+      "tipo": "str",
+      "muestra": "0968607051/0979634835"
+    },
+    "tienda": {
+      "nombre_real": "tienda",
+      "tipo": "list",
+      "muestra": "['reco1sSJAqxIOACrq']"
+    },
+    "tipo_cuenta": {
+      "nombre_real": "tipo_cuenta",
+      "tipo": "str",
+      "muestra": "Ahorros"
+    },
+    "tipo_sangre": {
+      "nombre_real": "tipo_sangre",
+      "tipo": "str",
+      "muestra": "O+"
+    },
+    "tipo_trabajador": {
+      "nombre_real": "tipo_trabajador",
+      "tipo": "str",
+      "muestra": "Agente de Restaurante"
+    },
+    "titulo": {
+      "nombre_real": "titulo",
+      "tipo": "str",
+      "muestra": "Bachiller"
+    },
+    "unidades_negocio": {
+      "nombre_real": "unidades_negocio",
+      "tipo": "str",
+      "muestra": "Tiendas"
+    }
+  },
+  "registros_muestra": [
+    {
+      "id": "recbAiMS1IHKXvTrj",
+      "createdTime": "2025-06-10T13:43:23.000Z",
+      "fields": {
+        "nombre": "Cedeño Velasquez Erick Jair",
+        "cedula": "1725275638",
+        "tipo_trabajador": "Agente de Restaurante",
+        "empresa": "FOODIX SAS",
+        "cargo": "Polifuncional cocina",
+        "estado": "Activo",
+        "nacionalidad": "Ecuatoriano",
+        "sexo": "Masculino",
+        "estado_civil": "Soltero",
+        "cargas_familiares": 1,
+        "fecha_nacimiento": "1996-09-13",
+        "tipo_sangre": "O+",
+        "nivel_estudios": "Bachiller",
+        "titulo": "Bachiller",
+        "secto_domicilio": "La Ofelia ",
+        "direccion_domicilio": "Av. Diego de Vasquez de Cepeda y Nazacoto Puento",
+        "celular": "(095) 905-7495",
+        "correo": "erickcv96@gmail.com",
+        "telefono_emergencia": "0968607051/0979634835",
+        "fecha_ingreso": "2025-06-03",
+        "salario": 473.67,
+        "forma_pago": "Transferencia",
+        "banco": "Produbanco ",
+        "tipo_cuenta": "Ahorros",
+        "numero_cuenta": 20300613634,
+        "marca": "Santo Cachon",
+        "area": "Cocina",
+        "codigo_trabajador": "SC011",
+        "etapa": "Onboarding (60 días)",
+        "fecha_cumpleanos": "2025-09-13",
+        "edad": 28,
+        "permanencia_dias": 85,
+        "permanencia_meses": 2,
+        "mes_cumpleanos": "Septiembre",
+        "fecha_ingreso_iess": "2025-06-16",
+        "Table 13 (2)": [
+          "recQyW7wFXHgxRt99",
+          "recyqZDOtevy2esan",
+          "recFSSPfOc6uBbDJX"
+        ],
+        "Copia de Registro de Horas Extra/Descuento": [
+          "recAKkD1sdRXhpsGv",
+          "recRYT8kBarGIYTu5"
+        ],
+        "rango_edad": "26 a 35 años",
+        "tienda": [
+          "reco1sSJAqxIOACrq"
+        ],
+        "centro_costo": [
+          "recE5GTGLXVOI77n2"
+        ],
+        "codigo_centro_costo": [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        "Control Disciplinario 6": [
+          "reckY3aihbqHyScwZ",
+          "recj5gW2yzPeWlg8v",
+          "recJ5TvUmhRolQiua"
+        ],
+        "jefe_directo": "Gil Ramirez Jorge Luis",
+        "centro_costo_copia": "Santo Cachón Real Audiencia",
+        "unidades_negocio": "Tiendas",
+        "permanencia_anos": 0.23
+      }
+    },
+    {
+      "id": "rect4g0UkDHSbHb1w",
+      "createdTime": "2025-04-28T20:11:53.000Z",
+      "fields": {
+        "nombre": "Quingualisa Morales Nathaly Abigail",
+        "cedula": "1725622250",
+        "tipo_trabajador": "Agente de Restaurante",
+        "empresa": "FOODIX SAS",
+        "cargo": "Polifuncional servicio",
+        "estado": "Activo",
+        "nacionalidad": "Ecuatoriano",
+        "sexo": "Femenino ",
+        "estado_civil": "Soltero",
+        "cargas_familiares": 0,
+        "fecha_nacimiento": "2002-02-18",
+        "tipo_sangre": "O+",
+        "nivel_estudios": "Bachiller",
+        "titulo": "Bachiller en Ciencias",
+        "secto_domicilio": "Carcelén Bajo",
+        "direccion_domicilio": "Pasaje 16 manzana X casa N-9255",
+        "celular": "(099) 217-7097",
+        "correo": "nathymorales67@gmail.com",
+        "telefono_emergencia": "0962665500 / 0969825934",
+        "fecha_ingreso": "2025-04-13",
+        "salario": 473.67,
+        "forma_pago": "Transferencia",
+        "banco": "Produbanco ",
+        "tipo_cuenta": "Ahorros",
+        "numero_cuenta": 20000660491,
+        "marca": "Santo Cachon",
+        "area": "Servicio",
+        "codigo_trabajador": "SC009",
+        "etapa": "Inducción (30 días)",
+        "fecha_cumpleanos": "2025-02-18",
+        "edad": 23,
+        "permanencia_dias": 136,
+        "permanencia_meses": 4,
+        "mes_cumpleanos": "Febrero",
+        "fecha_ingreso_iess": "2025-06-01",
+        "Table 13 (2)": [
+          "recYap6BEtMQ13c9o",
+          "rec01AU7B9snzkqZ7",
+          "recL9xNjQqEmUpg44",
+          "recsOS7Y4YcgjiljN",
+          "recifXZ4v5QR9YjsY",
+          "rec0HKxxqoZ4OO6Yb",
+          "recI1Jl3gslykuiE5",
+          "rec426KSfchfkS4yM",
+          "recqQsezzj4Pug7eg",
+          "recBV7Bl4MXlGiZpX",
+          "rec1FHWpNSCyS5tOD"
+        ],
+        "Copia de Registro de Horas Extra/Descuento": [
+          "recMmVD7xwfAbHhq2",
+          "recd8hyIGC26Kw3oH"
+        ],
+        "rango_edad": "18 a 25 años",
+        "tienda": [
+          "reco1sSJAqxIOACrq"
+        ],
+        "Table 19": [
+          "recSUhvB3Mrdb2e54",
+          "rec6th2Qyb0JD1ySx",
+          "recKlU0o3H0jVVhMC",
+          "recW24Zo4WlZSUQme"
+        ],
+        "centro_costo": [
+          "recE5GTGLXVOI77n2"
+        ],
+        "codigo_centro_costo": [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        "jefe_directo": "Gil Ramirez Jorge Luis",
+        "centro_costo_copia": "Santo Cachón Real Audiencia",
+        "unidades_negocio": "Tiendas",
+        "permanencia_anos": 0.37
+      }
+    },
+    {
+      "id": "recL80ckkJmTIqLnK",
+      "createdTime": "2025-02-26T21:02:28.000Z",
+      "fields": {
+        "nombre": "Vera Moreno Catalina del Cisne ",
+        "cedula": "1720191749",
+        "tipo_trabajador": "Agente de Restaurante",
+        "empresa": "FOODIX SAS",
+        "cargo": "Polifuncional servicio",
+        "estado": "Activo",
+        "nacionalidad": "Ecuatoriano",
+        "sexo": "Femenino ",
+        "estado_civil": "Soltero",
+        "cargas_familiares": 1,
+        "fecha_nacimiento": "1996-12-26",
+        "tipo_sangre": "O+",
+        "nivel_estudios": "Bachiller",
+        "titulo": "Bachiller en Ciencias ",
+        "secto_domicilio": "Carcelen",
+        "direccion_domicilio": "Carcelen Bajo N92 C.B. y pasaje 24 ",
+        "celular": "(099) 468-0151",
+        "correo": "catamore@outlook.com",
+        "telefono_emergencia": "0987018562",
+        "fecha_ingreso": "2025-02-14",
+        "salario": 473.67,
+        "forma_pago": "Transferencia",
+        "banco": "Produbanco ",
+        "tipo_cuenta": "Ahorros",
+        "numero_cuenta": 18059414965,
+        "marca": "Santo Cachon",
+        "area": "Servicio",
+        "codigo_trabajador": "SC008",
+        "etapa": "Onboarding (60 días)",
+        "fecha_cumpleanos": "2025-12-26",
+        "edad": 28,
+        "permanencia_dias": 194,
+        "permanencia_meses": 6,
+        "mes_cumpleanos": "Diciembre",
+        "fecha_ingreso_iess": "2025-04-01",
+        "Table 13": [
+          "rec8YCv9EfbRG5Z3t",
+          "recUNRhTGHkcObCDl",
+          "rec0Hd9XvYR3tS04O"
+        ],
+        "Table 13 (2)": [
+          "recFRhvNcYh775T21",
+          "recLjEaw9AUD5PkCL",
+          "recxYrkIlOYvSA4ms",
+          "recO3QythGQQigNww",
+          "recV6YwvsUOOFrqtv",
+          "receMM6qb7sSbjGWU",
+          "recX1x4lGVUg2YnqZ",
+          "rec8YCv9EfbRG5Z3t",
+          "recNV0TSQqNDO8OoT",
+          "recSxT8ckNiVXi8ie",
+          "recCZTQwWW5k49jeI",
+          "rechCG3H1Cvq8cNLs",
+          "recLe2d3FlWmn14nL",
+          "rechtkw1VCRbyoUOG",
+          "recXaXEylnV5h9nJC",
+          "rec7rZdyiocIMFpKW",
+          "recdoT7lmgSx2PhuO",
+          "rec4rSOzU3Jl4tG5C",
+          "recIwqMijPBl9v42s",
+          "rec2rbmciduayzq4w",
+          "rec1l3zPZPFGpz8eK",
+          "recAxTHNd5d1iMNK8",
+          "recRYJHa2fBQ0UE06",
+          "rec9gJfkx5EFrwde2",
+          "reczFWu9TpUTE5VpZ",
+          "recmcJYgbo3FSXC73",
+          "recjV5vFExFkVMkF7",
+          "rec4uj1BJgF3rrD6a",
+          "recN0wqyOnVqFQtnq",
+          "recTJ3R1uLnJt7E1V",
+          "receZDZl9iJwgr3OR",
+          "recwAzT6n7tmGNFtz",
+          "recqHFOPrU892rC4J",
+          "recpiUzUFlxFMRUDC",
+          "recHP8JrOuVwtom5n",
+          "recTx6O1IlZ2Xu2Ty",
+          "recL57XE7nO5f8Lpe",
+          "recHM9IyDQIfpJiHN",
+          "recp5M2EeiFjSJX1t",
+          "recy5aVX14VXkHxli",
+          "rec0QDLQl1ZdeU7ma",
+          "recnFsVmcByPWyrUw",
+          "recL8dmb0GdMqZDRr",
+          "recejoYHG0QvjpWLd",
+          "recSNvreWJGFhUbWp",
+          "recCL6OODQFkv7lNN",
+          "recPp4jUSFK00JzVN",
+          "recIQw9vFRUplGiPC",
+          "rec0dW3ktlwsDVe8Q",
+          "recWmOCRxgiwCUPJ7",
+          "recq1OYsHsY2pSHRy",
+          "rec32PCqvkXQ5W3Qc",
+          "recJo3vt9v47v0kwK",
+          "recYuzV8dnv0KOye7",
+          "recDWW9IpKYsMz7a7",
+          "recrK3srGhLYss80r",
+          "rectcVC4RGpp0Z3Hn",
+          "recCZXSeNiJLzv6Wd",
+          "recPCpjnezM47dX8N",
+          "recy4X5W6DuBNL71W",
+          "recTz7vQFOdMmQHGp",
+          "recBAuwxUtvo2fa78",
+          "recGuCSGlFDo2my6d",
+          "recEdKoFzxhI9wGRR",
+          "reclrNVCjZY5yfDgK",
+          "recfs3qQaXmcqWdhh",
+          "recUTb23nv0ozPBOw",
+          "recctesgSRG6V8Gbz",
+          "recrLNWC2Rfif3XkC",
+          "rectTuaQsVvVQSDVb",
+          "recSxegrCU4M8v9iF",
+          "recQwoGRazDMfIyfo",
+          "recQ4DQbQKYTYh9IF",
+          "recG537iEPtBfsFDr",
+          "rechYcSZvaBNclVGc",
+          "rec0PNEPekF7DXh9z",
+          "recj4IXTfabMR3qAT",
+          "recyLl7ZmwSCiKXT9",
+          "recxOZYsfJczF0189",
+          "recKvAbL4EElvLh5i",
+          "recIhxUSOxNSsVzsW",
+          "recF8rebiLT4u7CCy",
+          "recsaSeeZHs1lH2y9",
+          "recxA0g4cSR7gcEGj",
+          "rec3gjccMn2fj3pnu",
+          "recu5Z9z9OxVG4Lxq",
+          "recbZBpn57I9tbJKP",
+          "recORrZAqNj4xMIIT",
+          "reccITAurgzmqtmNN",
+          "recetdlkYIr9ULqjz",
+          "recvEL9Lb8C73HdB3",
+          "reczWL9Dp672LAtaY",
+          "recem4h6g82GgLN9x",
+          "recRxhabPKAsbQbUE",
+          "recvlVT574GKeQ5kH",
+          "recUNRhTGHkcObCDl",
+          "rec0Hd9XvYR3tS04O",
+          "recNEZYqfQy2ykRNs",
+          "recXe2bMV3GwVkVMK",
+          "recnELS49PlfXHtLM",
+          "rectESAM1vSfRwQQ8",
+          "recoWu2QY4OaLD2Yl",
+          "rec7lIlmCYsiZhOyh",
+          "recKgWXs2nsbguedt",
+          "recJX4zdUYsEJ3lQT",
+          "recmTmGuyTEiM97vu",
+          "recXkAWllXUig4dTF",
+          "rechtyciewJMa5x57",
+          "recBvdU5ZB6L2Q203",
+          "recQPItJZkiJkOGNa",
+          "rec7OyVvZhN7aDaDi",
+          "recj9mFj9wJJmQPVK",
+          "recZj6qVR4dm0r2yG",
+          "rec74v9PRrYGbOkRl",
+          "recvlHGTD1HreHfnp",
+          "recYveH5KWwBkTSBI",
+          "rec42grBDuUMkF1Yv"
+        ],
+        "Copia de Registro de Horas Extra/Descuento": [
+          "recMDs2xafrTFa8ee",
+          "recD08ggRngG1ViXC",
+          "recnC4zDcTtsg1uI4",
+          "recz5Xm9c4IV8Hlzm"
+        ],
+        "rango_edad": "26 a 35 años",
+        "tienda": [
+          "reco1sSJAqxIOACrq"
+        ],
+        "figuras_geometricas": [
+          "Cuadrado",
+          "Círculo"
+        ],
+        "Table 19": [
+          "recnekY4sgkL9QWip",
+          "recJUOdgZoHfmsRju",
+          "recB6yKkuy83e7eBz",
+          "recr3UBLKcKrOiCpL",
+          "recIlyCTjqBXxqlfP",
+          "recsu89KUTpvOljg8",
+          "recbmPNTL21y9EH0E",
+          "recwpcOmb9PnsUCux",
+          "receb6phtrvZ6AK73"
+        ],
+        "Table 19 (2)": [
+          "recr3UBLKcKrOiCpL",
+          "recwpcOmb9PnsUCux",
+          "recKlU0o3H0jVVhMC"
+        ],
+        "centro_costo": [
+          "recE5GTGLXVOI77n2"
+        ],
+        "codigo_centro_costo": [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        "jefe_directo": "Gil Ramirez Jorge Luis",
+        "centro_costo_copia": "Santo Cachón Real Audiencia",
+        "unidades_negocio": "Tiendas",
+        "permanencia_anos": 0.53
+      }
+    },
+    {
+      "id": "recPbwUIJRPlgp3W8",
+      "createdTime": "2025-02-26T21:01:46.000Z",
+      "fields": {
+        "nombre": "Zambrano Arias Alex Geovany",
+        "cedula": "1208311124",
+        "tipo_trabajador": "Agente de Restaurante",
+        "empresa": "FOODIX SAS",
+        "cargo": "Líder de apoyo",
+        "estado": "Activo",
+        "nacionalidad": "Ecuatoriano",
+        "sexo": "Masculino",
+        "estado_civil": "Soltero",
+        "cargas_familiares": 2,
+        "fecha_nacimiento": "1993-08-23",
+        "tipo_sangre": "O+",
+        "nivel_estudios": "Bachiller",
+        "titulo": "Bachiller en Ciencias ",
+        "secto_domicilio": "San Juan de Calderon",
+        "direccion_domicilio": "Isidro labrador  casa esquinera y pio xii san juan de Calderón",
+        "celular": "(096) 128-8230",
+        "correo": "alexgeo0823arias@gmail.com",
+        "telefono_emergencia": "0959534769",
+        "fecha_ingreso": "2024-12-24",
+        "salario": 473.67,
+        "forma_pago": "Transferencia",
+        "banco": "Produbanco ",
+        "tipo_cuenta": "Ahorros",
+        "numero_cuenta": 18059404935,
+        "marca": "Santo Cachon",
+        "area": "Servicio",
+        "codigo_trabajador": "SC006",
+        "etapa": "Tiempo de prueba superado",
+        "fecha_cumpleanos": "2025-08-23",
+        "edad": 32,
+        "permanencia_dias": 246,
+        "permanencia_meses": 8,
+        "mes_cumpleanos": "Agosto",
+        "Solicitud de Vacantes": [
+          "rec6m6bY4K5Z5uXnI"
+        ],
+        "fecha_ingreso_iess": "2025-04-01",
+        "Table 13": [
+          "recWS9wfbYhloNl2r",
+          "recayV8FsH2nyWcep",
+          "reca9Wm7hhhcQ4sBF",
+          "rec9SjGf7FXueRA9M",
+          "rec3WE44toSWiN1dj",
+          "recMftmVWtr87YOoX",
+          "recJDMA7SDowSMzzl",
+          "recMsYW4zOlOUWVi4",
+          "recjUM2DJhvkdYPif",
+          "recm1IjZufApKrAVu",
+          "recvlHGTD1HreHfnp",
+          "rectPiYyHVX7SRrXM",
+          "recpunSX9SnGLrKwq",
+          "recOxZGAJh2IoVV9Z",
+          "recyqZDOtevy2esan",
+          "recZkl9tnjBnKvAN4",
+          "rec1GSYMo3PdWzVpl",
+          "recIqLZ4ivvS7KMMb",
+          "recWrtclVk88jeAxs",
+          "recYveH5KWwBkTSBI",
+          "rec47qDcz0XgZlLiH",
+          "rec1FHWpNSCyS5tOD",
+          "recq3vwZI3CKwU6Ey",
+          "recFSSPfOc6uBbDJX",
+          "rec42grBDuUMkF1Yv",
+          "recEOCH1FLg75bg7G",
+          "recg7L2vYEyjNLI8c",
+          "rec0cvsCUHLuSAEuh",
+          "rec6qzOPYWCID0GGE",
+          "recsJSxPktObbyKuh",
+          "recWACY6fLJL4ykW9",
+          "recGphrf2Y8A2ZyB3",
+          "reccQhujuz4z6VAtW",
+          "recJ3aRx9RnGCZ8bs",
+          "rectywaOxPZrU7Dy2",
+          "recvCJNsFyFEfw3Sk"
+        ],
+        "Table 13 (2)": [
+          "recgSmTbi8YdfGbsR",
+          "recJykTerUhvNFRvT",
+          "recxLszrqkBeZUtdH",
+          "recBQ77MmOnflkPsX",
+          "recblSMAfxz2cxuYv",
+          "recNQLlBIm5AA33Gi",
+          "recF1O8dh8CET6oOw",
+          "recWkvEGpDldGWQZV",
+          "recs33vTHpwdFwhMc",
+          "rec2RSofi9aH5d5gb",
+          "recRXM9Ujd7HotQUs",
+          "recwhJjBTEP3iV4eP",
+          "recwgHrzpPFK6cxvH",
+          "rec1rcqDV9H8pt4Oc",
+          "recUhHkHVB32hoqnS",
+          "rec5zlul3UMAKhKec",
+          "recMq3oRdcHJfYg2L",
+          "recFy5bKPtC2y2XVa",
+          "recHwtxFa6hisiXvU",
+          "recFWS56l5QSqvDQF",
+          "recayV8FsH2nyWcep",
+          "reca9Wm7hhhcQ4sBF",
+          "rec9SjGf7FXueRA9M",
+          "rec3WE44toSWiN1dj",
+          "recJDMA7SDowSMzzl",
+          "recjUM2DJhvkdYPif",
+          "rectPiYyHVX7SRrXM",
+          "recpunSX9SnGLrKwq",
+          "recZkl9tnjBnKvAN4",
+          "rec1GSYMo3PdWzVpl",
+          "recq3vwZI3CKwU6Ey"
+        ],
+        "Copia de Registro de Horas Extra/Descuento": [
+          "recsgDqTIEqN3rlM9",
+          "rec5fD4LUUxjGbbLF",
+          "recRo5sBU3yKLlfk0",
+          "recL70WP7s2k1zObU",
+          "recpSRJfuF1U1id7C",
+          "recxou9FZgxS0dmhg",
+          "recMzrtezV5I7zk5y",
+          "recwwF3ci1NkQHRTN",
+          "rechpJ7Afx9s7u163",
+          "rec5g0VvPas8OoadC",
+          "recxI0JOOxYvPbsPU",
+          "recdMCqoJQT06ey2V",
+          "recSyFNcKGHMAj9GE",
+          "recmOu4GOv02KgXVB",
+          "rec8sEs3P7wZoXZN1",
+          "recAm4q4eWm0OtbKR",
+          "recxdQ8wVzYT77vd8",
+          "reccZMEGdFbHCxAnD",
+          "recSohpaiGCNmnpKe",
+          "recASOwupfJFLtpYu",
+          "recMmVD7xwfAbHhq2",
+          "recV9uTNwLQZV3yHy",
+          "rece3fXFQNTa0afTo",
+          "rec9LxtnXtI0t8B7r",
+          "recObtDvs6cZqUoxt",
+          "recdqEwiHKcatWoWr",
+          "recAKkD1sdRXhpsGv",
+          "recFsAixrdEcAMtBm",
+          "recTBfhk6qvVa5aYg",
+          "recpuIY9tF2eqkHxX",
+          "recxYnR97TF7KxClw",
+          "recd8hyIGC26Kw3oH",
+          "recBoIavc4UBbCwVY",
+          "rec2mK3c7h59n0I06",
+          "rec9Wcz7pxXcdZV5b"
+        ],
+        "rango_edad": "26 a 35 años",
+        "tienda": [
+          "reco1sSJAqxIOACrq"
+        ],
+        "figuras_geometricas": [
+          "Cuadrado",
+          "Triángulo"
+        ],
+        "Table 19": [
+          "reccY2sIiAmLNgmow",
+          "recesAaQ8EtGp2Idy",
+          "recSVtjm2GYHMbiBj",
+          "recnj6hJXEjYVKP5A",
+          "recs23jC3zPD3gHXm"
+        ],
+        "Table 19 (2)": [
+          "recr5mkFWKcweMUo9",
+          "rec82YyRJNVHFOwez",
+          "recRVEyvVSlbEHQTb",
+          "recq9VfqIJPGYx1aO",
+          "rec6th2Qyb0JD1ySx",
+          "recs23jC3zPD3gHXm"
+        ],
+        "centro_costo": [
+          "recE5GTGLXVOI77n2"
+        ],
+        "codigo_centro_costo": [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        "jefe_directo": "Gil Ramirez Jorge Luis",
+        "centro_costo_copia": "Santo Cachón Real Audiencia",
+        "unidades_negocio": "Tiendas",
+        "permanencia_anos": 0.67
+      }
+    },
+    {
+      "id": "recjnIbd2wKRYluEx",
+      "createdTime": "2025-02-26T21:01:44.000Z",
+      "fields": {
+        "nombre": "Navarro Montenegro Ysrael Alejandro",
+        "cedula": "1758612517",
+        "tipo_trabajador": "Agente de Restaurante",
+        "empresa": "FOODIX SAS",
+        "cargo": "Polifuncional cocina",
+        "estado": "Activo",
+        "nacionalidad": "Ecuatoriano",
+        "sexo": "Masculino",
+        "estado_civil": "Soltero",
+        "cargas_familiares": 0,
+        "fecha_nacimiento": "2025-01-24",
+        "tipo_sangre": "A+",
+        "nivel_estudios": "Bachiller",
+        "titulo": "Bachiller en Ciencias",
+        "secto_domicilio": "San Juan de Calderon",
+        "direccion_domicilio": "Pio xii y luis tufino dan juan de Calderón",
+        "celular": "(099) 065-4402",
+        "correo": "Ysrael.Navarro@gmail.com",
+        "telefono_emergencia": "0962848441",
+        "fecha_ingreso": "2024-12-17",
+        "salario": 473.67,
+        "forma_pago": "Transferencia",
+        "banco": "Produbanco ",
+        "tipo_cuenta": "Ahorros",
+        "numero_cuenta": 12186132153,
+        "marca": "Santo Cachon",
+        "area": "Cocina",
+        "codigo_trabajador": "SC005",
+        "etapa": "Tiempo de prueba superado",
+        "fecha_cumpleanos": "2025-01-24",
+        "edad": 0,
+        "permanencia_dias": 253,
+        "permanencia_meses": 8,
+        "mes_cumpleanos": "Enero",
+        "fecha_ingreso_iess": "2025-04-01",
+        "Table 13 (2)": [
+          "reczMXoDcnhpVHMiS",
+          "recfznbZ4t52DUXqY",
+          "recyFT4VCcckCCQLv",
+          "recuEUg54RoKV0h9F",
+          "rec9FfICnM1vZAzfS",
+          "recVMjFlCpiXcT2Mr",
+          "rec6F87V8e5VkQuB3",
+          "rec3vfWPDt6br7GGQ",
+          "recWFdmeuECDDmqvH",
+          "recwsCawNy390d2O3",
+          "recweQd2VlZ4VTgrq",
+          "recikVn4dkFlzBpxc",
+          "recrKdQeP5utatQvv",
+          "recn6uiK8J2cM8iQV",
+          "recW8EmSdDtaaonMf",
+          "rechntzCaos8tSdMP",
+          "rec9Qx5fBeoWk6WQC",
+          "recV7Zb04a3tRDbay",
+          "recxV5zxasgmULALL",
+          "recz7Qi1kg4fGK8tU",
+          "recVim2w4UEAZPFSC",
+          "rec0Z7VSzfVE9UVqT",
+          "recJQ0USFqwhxs52g",
+          "recuol7hGO3g6QgMA",
+          "recaW7G2nxW1JjL3S",
+          "rec9UQReSNw04yBot",
+          "recI1VqhAbvZOK63J",
+          "recAmGihQs6uQvVBg",
+          "reclUUnRnBuOPuPCq",
+          "recGpJc27CqgElrBH",
+          "recTmdND6zaRrNIZT",
+          "reczIUWKK0TqMlzwq",
+          "reccTUUYoawC9ATeQ",
+          "recMsYW4zOlOUWVi4",
+          "rec47wSBQ1SjF42kY",
+          "recIqLZ4ivvS7KMMb",
+          "recg7L2vYEyjNLI8c",
+          "recWACY6fLJL4ykW9",
+          "recGphrf2Y8A2ZyB3",
+          "recvCJNsFyFEfw3Sk"
+        ],
+        "Copia de Registro de Horas Extra/Descuento": [
+          "reccffDOHVC7MwTds",
+          "recRo5sBU3yKLlfk0"
+        ],
+        "rango_edad": "Menor de 18",
+        "tienda": [
+          "reco1sSJAqxIOACrq"
+        ],
+        "figuras_geometricas": [
+          "Cuadrado",
+          "Triángulo",
+          "Garabato"
+        ],
+        "Table 19": [
+          "recBkqZK5vQg4MFNC",
+          "recDYZhnpuvftWYb7",
+          "recWviWqCWJ2aD9NE",
+          "recx8WNc1ViEGUzl3"
+        ],
+        "centro_costo": [
+          "recE5GTGLXVOI77n2"
+        ],
+        "codigo_centro_costo": [
+          "SC001 (Santo Cachón Real Audiencia)"
+        ],
+        "jefe_directo": "Gil Ramirez Jorge Luis",
+        "centro_costo_copia": "Santo Cachón Real Audiencia",
+        "unidades_negocio": "Tiendas",
+        "permanencia_anos": 0.69
+      }
+    }
+  ]
+}
