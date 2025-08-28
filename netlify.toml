@@ -1,6 +1,7 @@
 [build]
+  base = "nextjs-app"
   command = "npm run build"
-  publish = ".next"
+  publish = "nextjs-app/.next"
 
 [build.environment]
   NEXT_PRIVATE_TARGET = "server"
