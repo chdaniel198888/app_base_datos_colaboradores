@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "dev:mobile": "next dev -H 0.0.0.0",
+    "mobile:url": "bash get-mobile-url.sh",
+    "mobile:tunnel": "bash setup-mobile-tunnel.sh",
     "build": "next build",
     "start": "next start",
     "start:mobile": "next start -H 0.0.0.0",

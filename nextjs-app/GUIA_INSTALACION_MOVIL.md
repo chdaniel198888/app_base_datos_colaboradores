@@ -1,5 +1,101 @@
 # 📱 Guía de Instalación en Celular
 
+## ⚠️ IMPORTANTE: Ambiente de Desarrollo en la Nube
+
+**Tu proyecto está corriendo en Claude Code (ambiente containerizado/nube).**
+
+Esto significa que:
+- ❌ No puedes acceder directamente desde tu celular a `http://IP-LOCAL:3000`
+- ❌ La IP del contenedor (21.0.0.132) NO es accesible desde tu red WiFi
+- ✅ **SOLUCIÓN**: Desplegar la app a internet (Netlify/Vercel)
+
+---
+
+## ✨ SOLUCIÓN RECOMENDADA: Deploy a Netlify (GRATIS)
+
+### Opción 1: Deploy Automático desde Git (Recomendado)
+
+1. **Sube tu código a GitHub** (si no lo has hecho)
+2. **Ve a [netlify.com](https://netlify.com)** y regístrate/inicia sesión
+3. **Click en "Add new site"** → "Import an existing project"
+4. **Conecta tu repositorio GitHub**
+5. **Configura el build**:
+   - Base directory: `nextjs-app`
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+6. **Agrega las variables de entorno** en Site Settings → Environment Variables:
+   ```
+   AIRTABLE_API_KEY=tu_clave
+   AIRTABLE_BASE_ID=tu_base_id
+   AIRTABLE_TABLE_ID=tu_tabla_id
+   AIRTABLE_VIEW_ID=tu_vista_id
+   ```
+7. **Deploy!**
+
+En 3-5 minutos tendrás una URL como: `https://tu-app.netlify.app`
+
+### Opción 2: Deploy Manual con Netlify CLI
+
+```bash
+# 1. Instalar Netlify CLI
+npm install -g netlify-cli
+
+# 2. Login
+netlify login
+
+# 3. Deploy
+cd nextjs-app
+netlify deploy --prod
+```
+
+---
+
+## 📱 Usar la App en tu Celular
+
+Una vez desplegada en Netlify:
+
+### 1. Abre la URL en tu celular
+- Ejemplo: `https://directorio-colaboradores.netlify.app`
+
+### 2. Instalar como App (PWA)
+
+**En Android (Chrome):**
+1. Abre la URL en Chrome
+2. Toca el menú (⋮) → "Agregar a pantalla de inicio"
+3. Confirma la instalación
+4. ¡El ícono aparecerá en tu pantalla de inicio!
+
+**En iPhone/iPad (Safari):**
+1. Abre la URL en Safari
+2. Toca el botón de compartir (□↑)
+3. Desplázate y selecciona "Agregar a pantalla de inicio"
+4. Toca "Agregar"
+5. ¡El ícono aparecerá en tu pantalla de inicio!
+
+---
+
+## 🆓 Deploy GRATIS en Vercel (Alternativa)
+
+```bash
+# 1. Instalar Vercel CLI
+npm install -g vercel
+
+# 2. Login
+vercel login
+
+# 3. Deploy
+cd nextjs-app
+vercel --prod
+```
+
+Sigue las instrucciones y tendrás una URL como: `https://tu-app.vercel.app`
+
+---
+
+## 🔧 Configuración Local (Solo si estás en tu computadora personal)
+
+Si NO estás usando Claude Code en la nube, sino tu computadora local:
+
 ## 🚀 Paso 1: Preparar tu Computadora
 
 ### Instalar Dependencias (si no lo has hecho)
