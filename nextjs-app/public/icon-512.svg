@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="85" fill="url(#grad2)"/>
+  <g transform="translate(128, 128)">
+    <!-- Icono de personas más grande -->
+    <circle cx="96" cy="96" r="42" fill="white" opacity="0.95"/>
+    <path d="M 148 180 Q 148 138 96 138 Q 44 138 44 180" fill="white" opacity="0.95"/>
+    <circle cx="192" cy="106" r="32" fill="white" opacity="0.75"/>
+    <path d="M 234 170 Q 234 138 192 138 Q 170 138 160 154" fill="white" opacity="0.75"/>
+    <circle cx="0" cy="106" r="32" fill="white" opacity="0.75"/>
+    <path d="M 0 170 Q 0 138 32 138 Q 54 138 64 154" fill="white" opacity="0.75"/>
+  </g>
+</svg>
